@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionais</title>
+</head>
+<body>
+    <script>
+        var idade = prompt("informe a sua idade");
+        var nome = prompt("informe o seu nome");
+
+        if(idade>=18){
+            window.alert('Olá ' + nome + ' você tem ' + idade);
+        } else{
+
+            window.alert('Você nao tem idade para entrar');
+        }
+
+        switch(idade){
+        case 18 : window.alert(idade); break;
+        case 50 : window.alert(idade); break;
+        default : window.alert(idade);
+        }
+
+
+    </script>
+    
+</body>
+</html>
