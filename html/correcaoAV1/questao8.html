@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionais</title>
+</head>
+<body>
+    <script>
+        var idadeusuario = prompt("informe a sua idade");
+
+        if(idadeusuario>=18){
+            window.alert('Olá ' + ' você tem ' + idadeusuario + 'voce pode dirigir');
+        } else{
+
+            window.alert('Ops, você ainda não tem idade minima para dirigir');
+        }
+
+        switch(idadeusuario){
+        case 18 : window.alert(idadeusuario); break;
+        case 50 : window.alert(idadeusuario); break;
+        default : window.alert(idadeusuario);
+        }
+
+
+    </script>
+    
+</body>
+</html>
